@@ -6,7 +6,7 @@ int getPopulationSize(const char *prompt, int min_value) {
     do {
         printf("%s", prompt);
         scanf("%d", &size);
-    } 
+    }
     while (size < min_value);
     return size;
 }
@@ -37,3 +37,5 @@ int main() {
     printf("Years: %d\n", years);
     return 0;
 }
+
+
